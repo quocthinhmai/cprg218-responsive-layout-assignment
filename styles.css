@@ -21,10 +21,17 @@ header img{
 }
 
 body{
-    justify-content: space-between;
+    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px 0;
 }
 
 main{
